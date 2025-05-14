@@ -1,0 +1,18 @@
+.container_principal{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    margin: auto;
+}
+
+.container_esquerda{
+    width: 65%;
+    height: 450px;
+    display: flex;
+}
+
+.container_esquerda img{
+    width: 100%;
+    height: 300px;
+}
