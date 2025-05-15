@@ -68,15 +68,24 @@
     flex-direction: column;
     background-color: #000;
     margin-left: 45px;
-    padding: 10px;
+    padding: 10px 10px 40px 10px;
 }
 
 .subtitulo{
     color: white;
     word-wrap: break-word;
     padding: 20px 0 0 0; 
+    font-size: 13px;
 }
 
 .subtitulo h2{
-    padding: 20px 0 0 0;
+    padding: 30px 0 10px 0;
+}
+
+.subtitulo h1{
+    padding: 0 0 20px 0;
+}
+
+.paralink{
+    padding: 0 0 0 70px;
 }
