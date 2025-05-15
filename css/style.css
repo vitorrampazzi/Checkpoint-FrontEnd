@@ -1,7 +1,10 @@
 :root{
     --fonte-principal: "Poppins", sans-serif;
-
-
+    --cor-do-botao-fundo: #d5ddd5;
+    --cor-preta: #000;
+    --cor-branca: #fff;
+    --nome-da-tecnologia: #fdb7b7;
+    --height-padrao: 450px;
 }
 
 *{
@@ -12,14 +15,14 @@
 
 .container_principal{
     width: 90%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     margin: auto;
 }
 
 .container_esquerda{
     width: 65%;
-    height: 450px;
+    height: var(--height-padrao);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -30,23 +33,16 @@
     height: 300px;
 }
 
-.container_esquerda h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-}
-
 .botao_lermais{
     text-align: center;
-    color: black;
+    color: var(--cor-preta);
     width: 120px;
-    border: 1px solid black;
     list-style: none;
     text-decoration: none;
     padding: 7px 10px;
     display: flex;
     flex-direction: column;
+    background-color: var(--cor-do-botao-fundo);
 }
 
 .paragrafo{
@@ -66,14 +62,13 @@
     height: 450px;
     display: flex;
     flex-direction: column;
-    background-color: #000;
+    background-color: var(--cor-preta);
     margin-left: 45px;
     padding: 10px 10px 40px 10px;
 }
 
 .subtitulo{
-    color: white;
-    word-wrap: break-word;
+    color: var(--cor-branca);
     padding: 20px 0 0 0; 
     font-size: 13px;
 }
@@ -84,8 +79,9 @@
 
 .subtitulo h1{
     padding: 0 0 20px 0;
+    color: var(--nome-da-tecnologia);
 }
 
 .paralink{
-    padding: 0 0 0 70px;
+    padding: 5px 0 0 70px;
 }
